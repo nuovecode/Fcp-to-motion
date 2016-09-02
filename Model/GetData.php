@@ -125,14 +125,6 @@ class getData {
         return $duration;
     }
 
-
-    public function getSequenceTcStart () {
-        $xml      = $this->uploaded;
-        $tcStart  = ((string)$xml->library->event->project->sequence['tcStart']);
-
-        return $this->operation->solveFraction($tcStart);
-    }
-
      /**
      * Project/Sequence/scene
      * Get scene settings
@@ -365,17 +357,13 @@ class getData {
 
     function getOffset($data) {
 
-
-
         if(isset($data['child-offset'] )) {
 
             return floatval($data['child-offset']);
 
         } else {
 
-            $offset  = floatval($this->operation->solveFraction($data['offset']));
-            $tcStart = $this->getSequenceTcStart();
-            return ($offset - $tcStart);
+            return floatval($this->operation->solveFraction($data['offset']));
         }
     }
 

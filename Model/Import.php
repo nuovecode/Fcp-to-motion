@@ -12,6 +12,20 @@ class ImportedData {
 
     }
 
+    /**
+     * Get Sequence timecode start
+     * @return int
+     */
+
+
+    public function getSequenceTcStart () {
+
+        $xml      = $this->uploaded;
+        $tcStart  = ((string)$xml->library->event->project->sequence['tcStart']);
+        return $this->operation->solveFraction($tcStart);
+
+    }
+
 
     /**
      * Add fake data to retrieve offset
@@ -22,10 +36,12 @@ class ImportedData {
 
     function addChildrenClipOffset() {
 
+        $this->getSequenceTcStart ();
+
         foreach($this->cliplist as $clip) {
 
             $mainStart = $this->operation->solveFraction($clip['start']);
-            $mainOffset = $this->operation->solveFraction($clip['offset']);
+            $mainOffset = ($this->operation->solveFraction($clip['offset']) - $this->getSequenceTcStart ());
             $parentOffset = $mainStart - $mainOffset;
 
             foreach($clip as $child) {
