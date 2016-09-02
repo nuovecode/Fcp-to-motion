@@ -125,6 +125,15 @@ class getData {
         return $duration;
     }
 
+
+    /**
+     * @return int
+     */
+
+    public function getTcStart () {
+        return $this->uploadedClass->getSequenceTcStart();
+    }
+
      /**
      * Project/Sequence/scene
      * Get scene settings
@@ -364,7 +373,7 @@ class getData {
         } else {
 
             $offset = floatval($this->operation->solveFraction($data['offset']));
-            $tcStart = $this->uploadedClass->getSequenceTcStart();
+            $tcStart = $this->getTcStart();
 
             return floatval($offset - $tcStart);
 

@@ -91,10 +91,13 @@ class Project {
 
     function setLayerTiming($project){
 
+
+
         $outvalues = array();
         foreach($this->uploaded->getClipData() as $clip) {
-            $outvalues [] = $this->ntsc * ($this->operation->solveFraction($clip['offset'])
-                + $this->operation->solveFraction($clip['duration']));;
+
+            $outvalues [] = $this->ntsc * ($this->uploaded->getTcStart()
+                + $this->operation->solveFraction($clip['duration']));
         }
         $out = ((string)max($outvalues));
 
