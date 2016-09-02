@@ -1,0 +1,23 @@
+<parameter name="Four Corner" id="207" flags="8589938689">
+					<foldFlags>131083</foldFlags>
+					<parameter name="Bottom Left" id="1" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8606711824" default="0" value="0"/>
+						<parameter name="Y" id="2" flags="8606711824" default="0" value="0"/>
+					</parameter>
+					<parameter name="Bottom Right" id="2" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8606711824" default="0" value="0"/>
+						<parameter name="Y" id="2" flags="8606711824" default="0" value="0"/>
+					</parameter>
+					<parameter name="Top Right" id="3" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8606711824" default="0" value="0"/>
+						<parameter name="Y" id="2" flags="8606711824" default="0" value="0"/>
+					</parameter>
+					<parameter name="Top Left" id="4" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8606711824" default="0" value="0"/>
+						<parameter name="Y" id="2" flags="8606711824" default="0" value="0"/>
+					</parameter>
+				</parameter>

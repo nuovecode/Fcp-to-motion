@@ -1,0 +1,4 @@
+<parameter name="Blending" id="200" flags="8589938704">
+					<parameter name="Opacity" id="202" flags="8589934608" default="1" value="1"/>
+					<parameter name="Blend Mode" id="203" flags="8590000144" default="0" value="0"/>
+				</parameter>

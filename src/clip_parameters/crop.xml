@@ -1,0 +1,7 @@
+				<parameter name="Crop" id="216" flags="8589938704">
+					<foldFlags>131083</foldFlags>
+					<parameter name="Left" id="1" flags="8606711824" default="0" value="0"/>
+					<parameter name="Right" id="2" flags="8606711824" default="0" value="0"/>
+					<parameter name="Bottom" id="3" flags="8606711824" default="0" value="0"/>
+					<parameter name="Top" id="4" flags="8606711824" default="0" value="0"/>
+				</parameter>

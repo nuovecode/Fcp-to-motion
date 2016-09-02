@@ -1,0 +1,59 @@
+<scenenode name="[edit]" id="[edit]" factoryID="3" version="5">
+    <validTracks>1</validTracks>
+    <aspectRatio>0</aspectRatio>
+    <flags>0</flags>
+    <linkedobjects>[edit]</linkedobjects>
+    <timing in="[edit]" out="[edit]" offset="[edit]"/>
+    <foldFlags>16384</foldFlags>
+    <baseFlags>524304</baseFlags>
+    <parameter name="Properties" id="1" flags="8589938704">
+        <parameter name="Lighting" id="230" flags="8589938706">
+            <foldFlags>15</foldFlags>
+        </parameter>
+        <parameter name="Shadows" id="234" flags="8589938706">
+            <foldFlags>15</foldFlags>
+        </parameter>
+        <parameter name="Reflection" id="223" flags="8589971474">
+            <foldFlags>131087</foldFlags>
+        </parameter>
+        <parameter name="Media" id="324" flags="8589938704">
+            <parameter name="Source Media" id="300" flags="81604444176" default="[edit]" value="[edit]"/>
+            <parameter name="Source Media" id="325" flags="8590000146">
+                <referencedObjectID></referencedObjectID>
+            </parameter>
+        </parameter>
+        <parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+        <parameter name="Retime Value" id="304" flags="8590066066">
+            <curve type="1" default="1" value="1" round="0" retimingExtrapolation="1">
+                <numberOfKeypoints>2</numberOfKeypoints>
+                <postExtrapolation>1</postExtrapolation>
+                <keypoint interpolation="1" flags="32">
+                    <time>[edit]</time>
+                    <value>[edit]</value>
+                </keypoint>
+                <keypoint interpolation="1" flags="32">
+                    <time>[edit]</time>
+                    <value>[edit]</value>
+                </keypoint>
+            </curve>
+        </parameter>
+        <parameter name="Retime Value Cache" id="319" flags="8590065810">
+            <curve type="1" default="1" value="1">
+                <numberOfKeypoints>2</numberOfKeypoints>
+                <keypoint interpolation="1" flags="160">
+                    <time>[edit]</time>
+                    <value>[edit]</value>
+                </keypoint>
+                <keypoint interpolation="1" flags="160">
+                    <time>[edit]</time>
+                    <value>[edit]</value>
+                </keypoint>
+            </curve>
+        </parameter>
+        <parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="[edit]"/>
+    </parameter>
+    <parameter name="Object" id="2" flags="8589938704">
+        <parameter name="Width" id="313" flags="8589934610" default="1" value="[edit]"/>
+        <parameter name="Height" id="314" flags="8589934610" default="1" value="[edit]"/>
+    </parameter>
+</scenenode>

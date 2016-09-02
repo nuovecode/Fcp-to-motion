@@ -1,0 +1,30 @@
+<clip name="[edit]" id="[edit]">
+    <pathURL>[edit]</pathURL>
+    <relativeURL>[edit]</relativeURL>
+    <missingWidth>[edit]</missingWidth>
+    <missingHeight>[edit]</missingHeight>
+    <missingDuration>[edit]</missingDuration>
+    <creationDuration>[edit]</creationDuration>
+    <mediaID></mediaID>
+    <flags>0</flags>
+    <timing in="0 1 1 0" out="[edit]" offset="0 1 1 0"/>
+    <foldFlags>0</foldFlags>
+    <baseFlags>524304</baseFlags>
+    <parameter name="Properties" id="1" flags="8589938704"/>
+    <parameter name="Object" id="2" flags="8589938704">
+        <parameter name="Alpha Type" id="100" flags="8589938704">
+            <parameter name="Alpha Type" id="101" flags="8590000128" default="0" value="1"/>
+        </parameter>
+        <parameter name="Pixel Aspect Ratio" id="104" flags="12884901888" default="1" value="1"/>
+        <parameter name="Frame Rate" id="107" flags="8589934592" default="0" value="[edit]"/>
+        <parameter name="Fixed Width" id="114" flags="12884901890" default="[edit]" value="[edit]"/>
+        <parameter name="Fixed Height" id="115" flags="12884901890" default="[edit]" value="[edit]"/>
+        <parameter name="Use Background Color" id="116" flags="8589934594" default="0" value="0"/>
+        <parameter name="Background Color" id="117" flags="8589971458">
+            <foldFlags>15</foldFlags>
+            <parameter name="Red" id="1" flags="8589967376" default="1" value="1"/>
+            <parameter name="Green" id="2" flags="8589967376" default="1" value="1"/>
+            <parameter name="Blue" id="3" flags="8589967376" default="1" value="1"/>
+        </parameter>
+    </parameter>
+</clip>

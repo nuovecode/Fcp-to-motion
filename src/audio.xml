@@ -1,0 +1,38 @@
+<audioTrack name="[edit]" id="[edit]">
+    <flags>0</flags>
+    <linkedobjects>[edit]</linkedobjects>
+    <timing in="240240 120000 1 0" out="[edit]" offset="240240 120000 1 0"/>
+    <foldFlags>16384</foldFlags>
+    <baseFlags>524304</baseFlags>
+    <parameter name="Properties" id="1" flags="8589938704">
+        <parameter name="Media" id="104" flags="77309476880" default="0" value="[edit]"/>
+        <parameter name="Retime Value" id="109" flags="8590065682">
+            <curve type="1" default="1" value="1" round="0" retimingExtrapolation="1">
+                <numberOfKeypoints>2</numberOfKeypoints>
+                <postExtrapolation>1</postExtrapolation>
+                <keypoint interpolation="1" flags="32">
+                    <time>0 120000 1 0</time>
+                    <value>1</value>
+                </keypoint>
+                <keypoint interpolation="1" flags="32">
+                    <time>684684 120000 1 0</time>
+                    <value>172</value>
+                </keypoint>
+            </curve>
+        </parameter>
+        <parameter name="Retime Value Cache" id="110" flags="8590065682">
+            <curve type="1" default="1" value="1">
+                <numberOfKeypoints>2</numberOfKeypoints>
+                <keypoint interpolation="1" flags="160">
+                    <time>0 1 1 0</time>
+                    <value>1</value>
+                </keypoint>
+                <keypoint interpolation="1" flags="160">
+                    <time>14300 2500 1 0</time>
+                    <value>172.42857142857142</value>
+                </keypoint>
+            </curve>
+        </parameter>
+    </parameter>
+    <parameter name="Object" id="2" flags="8589938704"/>
+</audioTrack>
