@@ -21,7 +21,7 @@
               <h2>Motion 5 roundtrip from Final Cut Pro X</h2>
           </div>
           <div class="box fcp-upload">
-              <p class="legend">Upload a file with .fcpxml extension (version 1.4) and click "export file":</p>
+              <p class="legend">Upload a file with .fcpxml extension and click "export file":</p>
               <form enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
                   <input name="xml" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple type="file" class="inputfile"/>
                   <label for="file-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
