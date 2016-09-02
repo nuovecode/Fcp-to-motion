@@ -40,6 +40,7 @@ class ImportedData {
 
         foreach($this->cliplist as $clip) {
 
+
             $mainStart = $this->operation->solveFraction($clip['start']);
             $mainOffset = ($this->operation->solveFraction($clip['offset']) - $this->getSequenceTcStart ());
             $parentOffset = $mainStart - $mainOffset;

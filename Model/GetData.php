@@ -7,12 +7,12 @@ class getData {
 
     public function __construct() {
 
-        $this->uploaded    = new ImportedData();
-        $this->operation   = new Operation();
-        $this->storyline   = new Storyline();
-        $this->helperData  = new HelperData();
+        $this->uploadedClass   = new ImportedData();
+        $this->operation       = new Operation();
+        $this->storyline       = new Storyline();
+        $this->helperData      = new HelperData();
 
-        $this->uploaded = $this->uploaded->getFile();
+        $this->uploaded = $this->uploadedClass->getFile();
         $this->cliplist = $this->uploaded->library->event->project->sequence->spine->children();
     }
 
@@ -363,7 +363,12 @@ class getData {
 
         } else {
 
-            return floatval($this->operation->solveFraction($data['offset']));
+            $offset = floatval($this->operation->solveFraction($data['offset']));
+            $tcStart = $this->uploadedClass->getSequenceTcStart();
+
+            return $offset - $tcStart;
+
+
         }
     }
 
