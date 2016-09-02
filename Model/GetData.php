@@ -366,8 +366,7 @@ class getData {
             $offset = floatval($this->operation->solveFraction($data['offset']));
             $tcStart = $this->uploadedClass->getSequenceTcStart();
 
-            return $offset - $tcStart;
-
+            return floatval($offset - $tcStart);
 
         }
     }
