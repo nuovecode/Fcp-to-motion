@@ -102,7 +102,7 @@ class Project {
         $out = ((string)max($outvalues));
 
         $project->scene->layer->timing->attributes()->in = '0 '.$this->ntsc.' 1 0';
-        $project->scene->layer->timing->attributes()->out = $out.' '.$this->ntsc.' 1 0';
+        $project->scene->layer->timing->attributes()->out = round($out).' '.$this->ntsc.' 1 0';
 
     }
 

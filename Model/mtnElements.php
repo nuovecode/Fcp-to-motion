@@ -31,6 +31,6 @@ abstract class MotionElements {
 
         $out = $this->ntsc * ($this->uploaded->getOffset($data)
                 + $this->operation->solveFraction($data['duration']));
-        return $out.' '.$this->ntsc.' 1 0';
+        return round($out).' '.$this->ntsc.' 1 0';
     }
 }

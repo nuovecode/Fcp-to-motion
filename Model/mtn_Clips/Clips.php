@@ -16,7 +16,7 @@ class Clip extends MotionElements {
 
         $inpoint = $this->uploaded->getStartPoint($data);
 
-        $in =  $this->ntsc * $this->uploaded->getOffset($data);
+        $in =  round($this->ntsc * $this->uploaded->getOffset($data));
 
         $offset = round($in - $this->ntsc * $inpoint);
 
