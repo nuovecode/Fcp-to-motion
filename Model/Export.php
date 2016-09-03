@@ -49,7 +49,7 @@ class ExportFile {
 
         if ($this->download() == true) {
 
-            header('Content-type: text/xml');
+            header('Content-type: application/download');
             header('Content-Disposition: attachment; filename=' . pathinfo($name, PATHINFO_FILENAME) . '.motn');
 
             echo $project->asXML();
