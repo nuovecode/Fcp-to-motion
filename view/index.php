@@ -30,9 +30,10 @@
                   </label>
                   <input type="submit" value="Export file" name="submit" class="done" />
               </form>
-          </div>
+          </div>      
       </div>
   </div>
+  
   <?php include_once("view/frontend/html/blocks.php"); ?>
   <footer class="footer">
       <?php if(file_exists("../modules/footer.php"))  include_once "../modules/footer.php"; ?>
