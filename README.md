@@ -1,4 +1,4 @@
-![fcp-to-motion-immagine-estesa.jpg](/images/article-2016/fcp-to-motion-immagine-estesa.jpg)
+![fcp-to-motion-immagine-estesa.jpg](http://www.ilgattohanuovecode.it/images/article-2016/fcp-to-motion-immagine-estesa.jpg)
 
 # FINAL CUT TO MOTION #
 
