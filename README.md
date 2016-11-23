@@ -1,8 +1,8 @@
-![fcp-to-motion-immagine-estesa.jpg](http://www.ilgattohanuovecode.it/images/article-2016/fcp-to-motion-immagine-estesa.jpg)
+![fcp-to-mtn-logo.jpg](http://www.ilgattohanuovecode.it/images/website/fcp-to-mtn-logo.jpg)
 
-# FINAL CUT TO MOTION #
+# FCP TO MOTION #
 
-A web tool to import FCPX timelines into Motion.
+FCP to motion is a free app for sending the whole timeline from Final Cut to Motion. Just export your project as .fcpxml (File > Export XML), upload it above and download a motion project. 
 
 ***Live:***
 [http://www.ilgattohanuovecode.it/tool/final-cut-round-trip/](http://www.ilgattohanuovecode.it/tool/final-cut-round-trip/)
