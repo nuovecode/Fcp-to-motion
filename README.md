@@ -14,6 +14,10 @@ About
 
 * [About us on fcp.co:](http://www.fcp.co/final-cut-pro/news/1848-convert-your-final-cut-pro-x-timelines-into-motion-projects-with-a-free-web-app) [Blog post EN]
 
+**See other fcp web tools:**
+
+[Fast Titles] (https://github.com/nuovecode/Fast-titles)
+
 Contributions
 -------------
 Tests, suggestions and contributions are sincerely appreciated :)
