@@ -16,7 +16,7 @@ About
 
 **See other fcp web tools:**
 
-[Fast Titles] (https://github.com/nuovecode/Fast-titles)
+[Fast Titles](https://github.com/nuovecode/Fast-titles)
 
 Contributions
 -------------
